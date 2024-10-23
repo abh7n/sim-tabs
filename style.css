@@ -1,0 +1,44 @@
+body {
+    margin: 20px;
+    padding: 20px;
+}
+
+.container {
+    border: 2px black solid;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.tabs {
+    display : flex ;
+    flex-direction: row ;
+    justify-content: space-around;
+    text-align: center;
+    cursor: pointer;
+}
+
+.tab.active {
+    border-bottom: 2px black solid;
+    padding-bottom: 10px;
+    width: 80px;
+}
+
+.content {
+    display: none;
+    
+}
+  .content.active {
+    display: block;
+    
+    
+  }
+
+  .content-container {
+    border: 2px black solid;
+    padding: 20px;
+    border-radius: 10px;
+
+  }
